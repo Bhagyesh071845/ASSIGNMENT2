@@ -1,0 +1,122 @@
+    * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    header {
+        font-size: 100px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Metal mania';
+        font-weight: 600;
+        letter-spacing: 28px;
+        color: #1d3557;
+        opacity: 70%;
+
+        /* Checking different colors */
+
+        /* background: linear-gradient(to right,
+        rgba(128,13,223,0.65), rgba(14,236,151,0.65)); */
+        /* background: linear-gradient(to right,   
+        rgba(249, 158, 13, 0.65),rgba(147, 65, 214, 0.65)); */
+        /* background-color: #107deb; */
+        /* font-family: 'Raleway', sans-serif; */
+
+    }
+
+    body {
+        background: linear-gradient(to top,
+                rgba(249, 158, 13, 0.65), rgba(147, 65, 214, 0.65));
+
+        /* background: linear-gradient(to right,
+        rgba(14,236,151,0.65),rgba(128,13,223,0.65)); */
+        /* background-color: #F1B4BB; */
+        /* background-color: #EBE4D1; */
+        /* background-color: #f1faee; */
+
+    }
+
+
+
+    .font1 {
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 5px;
+        font-variant: normal;
+        font-weight: 700;
+        padding-left: 40%;
+        font-size: 38px;
+        height: 10%;
+        color: #1d3557;
+        /* display: flex;
+        justify-content: center; */
+        /* font-variant: bolder; */
+
+    }
+
+    .font2 {
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: 5px;
+        font-size: 45px;
+        z-index: -1;
+        color: #D3D3D3;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+        /* Trying different fonts, colors, and shadow. */
+
+        /* font-family: 'Metal mania'; */
+        /* text-shadow : 2px 2px 2px rgb(0,0,0.5);   */
+        /* font-family: 'Gochi Hand', cursive; */
+        /* font-family: 'Gochi Hand', cursive; */
+        /* font-family: 'Lexend Zetta', sans-serif; */
+        /* font-family: 'Sono', monospace; */
+        /* padding-left: 30%; */
+        /* color: #ffffff    ; */
+        /* display: flex;
+        justify-content: center; */
+        /* top: 50%;
+        left: 50%; */
+        /* transform: translate(-50%, -50%); */
+        /* Ensure the shadow appears behind the text */
+        /* color: rgba(0, 0, 0, 0.5);  */
+
+    }
+
+
+
+    footer {
+        height: 250px;
+        width: auto;
+        background-color: black;
+        opacity: 60%;
+        font-family: 'Gochi Hand', cursive;
+    }
+
+    .details {
+        padding-left: 15px;
+        padding-top: 20px;
+        letter-spacing: 3px;
+        line-height: 45px;
+        font-size: 28px;
+        color: rgb(255, 255, 255);
+    }
+
+    .stretch {
+        font-family: 'Montserrat Alternates', sans-serif;
+        letter-spacing: 5px;
+        /* letter-spacing: 4px;
+        color:rgb(16, 23, 156); */
+        /* font-family: 'Metal mania'; */
+    }
+
+    .power1 {
+        color: #1d3557;
+        display: flex;
+        justify-content: end;
+        line-height: 50px;
+        letter-spacing: 5px;
+        font-size: 45px;
+
+    }
